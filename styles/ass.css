@@ -1,10 +1,11 @@
 * {
     margin: 0;
-    font-family: 'Open Sans';
+    font-family: font-family: 'Work Sans', sans-serif;
 }
 
 .header {
     background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
     width: 100%;
     height: 800px;
     margin: 0;
@@ -42,6 +43,7 @@
     color: #FFFFFF;
     margin-right: 240px;
     margin-left: 600px;
+    margin-bottom: 110px;
     padding: 10px 15px;
     border-radius: 5px;
     border: none;
@@ -56,7 +58,8 @@
 .pic {
     width: 569px;
     height: 723.3px;
-    margin-left: 200px;
+    margin-left: 100px;
+    max-width: 569px;
 }
 
 .middle {
@@ -84,9 +87,82 @@
 }
 
 .l-block {
-    justify-content: space-evenly;
+    display: block;
     margin-right: 500px;
     height: 150px;
     font-size: 16px;
     color: #444343;
+}
+
+/* plan */
+
+.about-plan {
+    padding: 0 200px;
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+
+}
+
+.skills-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.skill-description {
+    font-size: 25px;
+    color: #737272;
+    font-weight: 500;
+}
+
+/* aim section */
+.aim-f {
+    background: #151414;
+    display: flex;
+    gap: 80px;
+    text-align: left;
+}
+
+.aim-f .sec-title {
+    text-align: left;
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px
+}
+
+.aim-p {
+    padding: 130px 200px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.mail {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+}
+
+
+.btn-p {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 16px;
+    border-radius: 5px;
+    color: #F15B22;
+    border: none;
 }
