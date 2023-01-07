@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+.header {
+    background-image: url('../images/banner/banner1.png');
+    width: 100%;
+    height: 800px;
+    margin: 0;
+}
+
+.banner {
+    margin: 100px 200px;
+    display: flex;
+    text-align: right;
+    align-items: center;
+}
+
+.h-block {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-top: 200px;
+    margin-right: 240px;
+    margin-bottom: 24px;
+    margin-left: 500px;
+}
+
+.p-block {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-right: 230px;
+    margin-bottom: 230px;
+    margin-left: 700px;
+}
+
+.btn-block {
+    height: 64px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    margin-right: 240px;
+    margin-left: 600px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* failure-section */
+
+.middle {
+    margin: 0;
+}
+
+.pic {
+    width: 569px;
+    height: 723.3px;
+    margin-left: 200px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.failure {
+    margin-right: 500px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    height: 94px;
+}
+
+.f-block {
+    margin-right: 450px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    height: 104px;
+}
+
+.l-block {
+    justify-content: space-evenly;
+    margin-right: 500px;
+    height: 150px;
+    font-size: 16px;
+    color: #444343;
+}
